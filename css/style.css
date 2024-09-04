@@ -1,0 +1,23 @@
+#texto {
+    font-size: 16px;
+}
+#aumentarFonte {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+#texto {
+    font-size: 16px;
+}
+.botao {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
