@@ -1,3 +1,8 @@
+document.getElementById('toggle-dark-mode').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+    document.body.classList.toggle('light-mode');
+});
+/*Código para alteração de modo de exibição de claro para escuro*/
 document.getElementById('toggleButton').addEventListener('click', function() {
     var text = document.getElementById('text');
     if (text.style.display === 'none') {
@@ -8,6 +13,7 @@ document.getElementById('toggleButton').addEventListener('click', function() {
         this.textContent = 'Mostrar Texto';
     }
 });
+/*Função de esconder ou exibir texto*/
 document.getElementById('readButton').addEventListener('click', function() {
     var text = document.getElementById('textToRead').innerText;
     var speech = new SpeechSynthesisUtterance(text);
